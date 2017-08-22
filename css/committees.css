@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+body{
+  height: 100vh;
+  width: 100%;
+}
+
+.container-fluid{
+  margin: 0;
+}
+
+.row{
+  margin-right: 0px;
+}
+
+.cont{
+  position: relative;
+  text-align: center;
+}
+
+.register{
+  width: 100%;
+  font-family: 'Raleway';
+  font-weight: 300;
+  text-align: center;
+}
+
+.committee{
+  height: 25vw;
+}
+
+.committee-heading{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.committee-heading h1 span{
+  display: inline-block;
+  position: relative;
+  font-size: 3vw;
+}
+
+h2 span{
+  display: inline-block;
+  position: relative;
+  font-size: 2vw;
+}
+
+span:before, span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: block;
+    margin-top: 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+h2 span:before, h2 span:after{
+  width: 10%;
+}
+
+
+span:before {
+    right: 100%;
+    margin-right: 0.75em;
+}
+
+span:after {
+    left: 100%;
+    margin-left: 0.75em;
+}
+
+.committee-text{
+    margin-top: 14vw;
+}
+
+@media only screen and (max-width: 991px){
+  .committee{
+    height: 33vw;
+  }
+  span:before, span:after{
+    display: none;
+  }
+  .committee-text{
+      margin-top: 16vw;
+  }
+  h2 span{
+    font-weight: 400;
+    font-size: 4vw;
+  }
+  .committee-heading h1 span{
+    display: inline-block;
+    position: relative;
+    font-size: 6vw;
+  }
+}

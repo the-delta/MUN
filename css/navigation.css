@@ -1,0 +1,157 @@
+.navbar
+{
+	font-family: Raleway;
+	font-size: 16px;
+	font-weight: 400;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	position: static;
+	background-color: black;
+	border: none;
+	color: white;
+}
+
+body{
+	max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.logo
+{
+	width: 26px;
+	height: 26px;
+	border-radius: 13px;
+}
+
+.navbar .container .navbar-header .navbar-brand{
+	color: white;
+}
+
+.navbar .container #mynavbar .navbar-nav>li>a
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: transparent;
+	color: white;
+	font-weight: lighter;
+}
+
+.navbar .container #mynavbar li form button
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	font-weight: lighter;
+}
+
+.navbar .container #mynavbar>ul>li>a:hover
+{
+	background-color: transparent;
+	color: black;
+}
+
+.dropdown-menu li a:hover{
+	color: yellowgreen;
+}
+
+.navbar .container #mynavbar li a:focus
+{
+	background-color: transparent;
+	color: yellowgreen;
+}
+
+.navbar .container #mynavbar .active a
+{
+	background-color: black;
+	color: yellowgreen;
+}
+
+.icon-bar
+{
+	background-color: grey;
+}
+
+.navbar .container #mynavbar .nav .dropdown .dropdown-toggle .dropdown-menu li a{
+	color: yellowgreen;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+	margin: 0;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-top: 1px solid transparent;
+}
+
+.navbar-nav > li:hover{
+	border-top: 1px solid white;
+}
+
+.navbar-nav > .a{
+	border-top: 1px solid white;
+}
+
+.navbar-collapse .navbar-nav li{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.dropdown, .dropdown-menu {
+  z-index:2;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: whitesmoke;
+}
+
+.navbar {
+  position: static;
+  z-index: 10001;
+}
+
+.scroll-pre {
+  height: 100px;
+  width: 100%;
+  background-color: inherit;
+  position: fixed;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-collapse{
+	border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: whitesmoke;
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-toggle{
+	margin-right: 25px;
+}
+
+@media only screen and (max-width: 991px){
+	.nav li{
+		margin-left: 60px !important;
+		margin-right: 60px !important;
+	}
+	.navbar-nav > .a{
+		border: none;
+	}
+	.navbar-nav > li:hover{
+		border: none;
+	}
+}
