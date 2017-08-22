@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight);
+
 *{
   box-sizing: border-box;
 }
@@ -51,6 +53,8 @@ body{
   display: inline-block;
   position: relative;
   font-size: 3vw;
+  font-family: "Zilla Slab Highlight";
+  color: black;
 }
 
 span:before, span:after {
@@ -109,4 +113,9 @@ span:after {
 .map-social{
   height: 100vh;
   margin-top: 100px;
+}
+
+.contact-person h3{
+  font-family: "Zilla Slab Highlight";
+  color: black;
 }

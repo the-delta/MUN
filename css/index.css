@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight);
+
 *{
   box-sizing: border-box;
 }
@@ -74,6 +76,11 @@ h1{
 
 .message-content{
   font-size: 15px;
+}
+
+.message-content h1, .social-content h1{
+  font-family: "Zilla Slab Highlight";
+  color: black;
 }
 
 
